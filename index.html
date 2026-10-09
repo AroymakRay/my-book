@@ -510,121 +510,83 @@
                 </div>
             </section>
 
-            <div class="ornamental-divider story-reveal">
-                <span class="ornament-line"></span>
-                <span class="ornament-symbol">✦ ✦ ✦</span>
-                <span class="ornament-line"></span>
-            </div>
-
-            <!-- Section: FAQ Accordion (Bootstrap 5) -->
-            <section class="content-section faq-section story-reveal" id="faq-section">
-                <!-- Bootstrap Carousel Indicators Showcase (เหนือหัวข้อ FAQ) -->
-                <div class="faq-carousel-wrapper story-reveal mb-5">
-                    <div id="faqCarouselIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
-                        <!-- Carousel Indicators -->
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#faqCarouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#faqCarouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#faqCarouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
-
-                        <!-- Carousel Inner / Slides -->
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="img/c1.webp" class="d-block w-100 carousel-img" alt="กิจกรรมภาพที่ 1">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/c2.webp" class="d-block w-100 carousel-img" alt="กิจกรรมภาพที่ 2">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/c3.webp" class="d-block w-100 carousel-img" alt="กิจกรรมภาพที่ 3">
-                            </div>
-                        </div>
-
-                        <!-- Controls -->
-                        <button class="carousel-control-prev" type="button" data-bs-target="#faqCarouselIndicators" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#faqCarouselIndicators" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                </div>
-
-                <div class="section-header story-reveal">
-                    <div class="section-tag-gold">FAQ &amp; ADVICE</div>
-                    <h3 class="section-title">คำถามที่พบบ่อย (Q&amp;A)</h3>
-                </div>
-
-                <div class="accordion" id="accordionFAQ" data-bs-theme="dark">
-                    <!-- ข้อที่ 1 -->
-                    <div class="accordion-item story-reveal delay-1">
-                        <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                <span class="faq-q-badge me-2">Q:</span> ผมไม่ใช่สายกิจกรรม ไม่ชอบทำกิจกรรมเลย ไม่เข้ารับน้องได้ไหมครับ
-                            </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionFAQ">
-                            <div class="accordion-body">
-                                <strong class="faq-a-badge">A:</strong> การรับน้องนั้น มีขึ้นเพื่อกระชับความสัมพันธ์กับเพื่อนใหม่ที่กำลังจะเข้ามาเรียนในคณะ หรือสาขาวิชาเอก-โทนี้ด้วยกัน แต่ไม่มีการบังคับให้เข้าร่วมกิจกรรมนี้นะครับ ดังนั้นไม่ต้องเข้าก็ได้ เพราะไม่มีผลอะไรกับการใช้ชีวิตในสาขาวิชานี้แน่นอน
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- ข้อที่ 2 -->
-                    <div class="accordion-item story-reveal delay-2">
-                        <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                <span class="faq-q-badge me-2">Q:</span> แล้วกิจกรรมรับน้องของคณะ และรับน้องของเอก-โทของที่นี่มีโซตัสไหมคะ
-                            </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionFAQ">
-                            <div class="accordion-body">
-                                <strong class="faq-a-badge">A:</strong> ที่นี่ไม่มีโซตัสทั้งรับน้องของคณะ และรับน้องของเอก-โท ดังนั้นไม่ต้องกังวลนะคะ
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- ข้อที่ 3 -->
-                    <div class="accordion-item story-reveal delay-3">
-                        <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                <span class="faq-q-badge me-2">Q:</span> เคยได้ยินว่าเอกนี้มี "กิจกรรมห้องสมุดเคลื่อนที่" ซึ่งเป็นกิจกรรมที่เป็นไฮไลท์เด็ดของภาควิชา แต่ถ้าไม่อยากเข้าร่วมกิจกรรมนี้ จะมีปัญหาอะไรไหมครับ
-                            </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionFAQ">
-                            <div class="accordion-body">
-                                <strong class="faq-a-badge">A:</strong> จริง ๆ ทางภาควิชาไม่ได้บังคับ แต่ "ขอความร่วมมือ" ดังนั้นเข้าร่วมเพื่อกิจกรรมเอาไว้ใส่ในแฟ้มรวบรวมผลงาน เพื่อสั่งสมประสบการณ์ก็ดีครับ
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- ข้อที่ 4 -->
-                    <div class="accordion-item story-reveal delay-4">
-                        <h2 class="accordion-header" id="headingFour">
-                            <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                <span class="faq-q-badge me-2">Q:</span> ไม่ประสงค์ฝึกงานได้ไหมคะ
-                            </button>
-                        </h2>
-                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionFAQ">
-                            <div class="accordion-body">
-                                <strong class="faq-a-badge">A:</strong> ถ้าเป็นเด็ก "เอก" นี้ จะต้องฝึกงานนะคะ เพราะต้องนำประสบการณ์ที่ได้จากการฝึกงานไปเรียนต่อในรายวิชา "สัมมนาการฝึกปฏิบัติงาน" เป็นวิชาบังคับ ซึ่งจะต้องนับเป็นหน่วยกิตก่อนจบการศึกษาด้วย แต่ถ้าเป็นเด็ก "โท" ไม่จำเป็นต้องฝึกงานค่ะ
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
         </article>
     </main>
 
     <!-- Footer -->
     <footer class="site-footer">
-        <div class="footer-inner">
-            <p class="footer-title">To Kill a Mockingbird (ผู้บริสุทธิ์) — Harper Lee</p>
-            <p class="footer-sub">Editorial Literary Review • Published for Readers & Scholars Worldwide</p>
+        <div class="footer-container">
+            <div class="footer-top-grid">
+                <!-- Column 1: Brand & Literary Identity -->
+                <div class="footer-col footer-col-brand">
+                    <div class="footer-brand">
+                        <img src="img/open-book.png" alt="Book Icon" class="footer-brand-icon">
+                        <span class="footer-brand-title">Classic Reads</span>
+                    </div>
+                    <p class="footer-brand-desc">
+                        เว็บไซต์แนะนำและวิจารณ์วรรณกรรมคลาสสิกระดับโลก ถ่ายทอดคุณค่าทางความคิด มโนธรรม และบทเรียนชีวิตเหนือกาลเวลาเพื่อผู้อ่านรุ่นใหม่
+                    </p>
+                    <div class="footer-award-badge">
+                        <span class="badge-star">🏆</span>
+                        <div class="badge-text">
+                            <strong>Pulitzer Prize for Fiction (1961)</strong>
+                            <span>Harper Lee — To Kill a Mockingbird</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Column 2: Quick Links / Navigation -->
+                <div class="footer-col">
+                    <h4 class="footer-col-title">สำรวจเนื้อหา</h4>
+                    <ul class="footer-nav-list">
+                        <li><a href="#synopsis-box" class="footer-nav-link">บทนำ &amp; คำโปรย</a></li>
+                        <li><a href="#book-3d-stage" class="footer-nav-link">หนังสือ 3D &amp; สเปกเล่ม</a></li>
+                        <li><a href="#scrollytelling-gallery" class="footer-nav-link">บันทึกคดีในชั้นศาล</a></li>
+                        <li><a href="#" class="footer-nav-link">ทำไมคนรุ่นใหม่ควรอ่าน</a></li>
+                        <li><a href="#" class="footer-nav-link">สัญลักษณ์นกม็อกกิ้งเบิร์ด</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Book Metadata & Specs -->
+                <div class="footer-col">
+                    <h4 class="footer-col-title">ข้อมูลหนังสือ</h4>
+                    <ul class="footer-meta-list">
+                        <li><span class="meta-label">ชื่อเรื่อง</span><span class="meta-val">To Kill a Mockingbird (ผู้บริสุทธิ์)</span></li>
+                        <li><span class="meta-label">ผู้เขียน</span><span class="meta-val">Harper Lee (ฮาร์เปอร์ ลี)</span></li>
+                        <li><span class="meta-label">ปีที่พิมพ์ครั้งแรก</span><span class="meta-val">11 กรกฎาคม 1960</span></li>
+                        <li><span class="meta-label">ประเภท</span><span class="meta-val">Southern Gothic • Legal Drama</span></li>
+                        <li><span class="meta-label">สเปกหนังสือ</span><span class="meta-val">384 หน้า (~8.5 ชม.) • EPUB / PDF</span></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Memorable Quote Card -->
+                <div class="footer-col footer-col-quote">
+                    <h4 class="footer-col-title">ข้อคิดเตือนใจ</h4>
+                    <div class="footer-quote-card">
+                        <blockquote class="footer-quote-text">
+                            “สิ่งเดียวที่ไม่ยอมอยู่ใต้การตัดสินของเสียงข้างมาก คือมโนธรรมในใจของคนเรา”
+                        </blockquote>
+                        <cite class="footer-quote-author">— แอตติคัส ฟินช์ (Atticus Finch)</cite>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom Bar -->
+            <div class="footer-bottom-bar">
+                <div class="footer-ornament-sep">
+                    <span class="footer-line"></span>
+                    <span class="footer-sym">✦ ✦ ✦</span>
+                    <span class="footer-line"></span>
+                </div>
+                <div class="footer-bottom-flex">
+                    <p class="footer-copyright">
+                        © 1960–2026 <strong>Classic Reads Editorial</strong>. สงวนลิขสิทธิ์บทวิจารณ์และการเรียบเรียง
+                    </p>
+                    <p class="footer-disclaimer">
+                        จัดทำขึ้นเพื่อการศึกษา แนะนำวรรณกรรม และส่งเสริมวัฒนธรรมการอ่าน
+                    </p>
+                </div>
+            </div>
         </div>
     </footer>
 
