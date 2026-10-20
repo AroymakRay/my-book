@@ -50,7 +50,7 @@
         <article class="book-article">
 
             <!-- Hero Section: The Hook & Introduction -->
-            <section class="hero-section">
+            <section class="hero-section" id="hero-overview">
                 <div class="hero-content story-reveal">
                     <div class="meta-tag-group">
                         <span class="category-tag">Southern Gothic • Legal Drama</span>
@@ -234,7 +234,7 @@
             </section>
 
             <!-- Dedicated Author Profile Section -->
-            <section class="author-section story-reveal">
+            <section class="author-section story-reveal" id="author-section">
                 <div class="section-badge-wrapper story-reveal">
                     <span class="section-sub-badge">THE AUTHOR</span>
                     <h3 class="section-heading-sm">ผู้ประพันธ์ (Author Profile)</h3>
@@ -259,7 +259,7 @@
             </section>
 
             <!-- Quick Facts Infographic Section -->
-            <section class="quick-facts-section story-reveal">
+            <section class="quick-facts-section story-reveal" id="quick-facts">
                 <div class="section-badge-wrapper story-reveal">
                     <span class="section-sub-badge">KEY METADATA</span>
                     <h3 class="section-heading-sm">ข้อมูลสำคัญของหนังสือ (Quick Facts)</h3>
@@ -378,7 +378,7 @@
             </div>
 
             <!-- Section 2: Why Young Generation Should Read This -->
-            <section class="content-section">
+            <section class="content-section" id="reasons-section">
                 <div class="section-header story-reveal">
                     <div class="section-tag-gold">CHAPTER 01</div>
                     <h3 class="section-title">ทำไมคนรุ่นใหม่จึงควรอ่านเล่มนี้?</h3>
@@ -428,7 +428,7 @@
             </div>
 
             <!-- Section 3: Benefits for Students -->
-            <section class="content-section">
+            <section class="content-section" id="benefits-section">
                 <div class="section-header story-reveal">
                     <div class="section-tag-gold">CHAPTER 02</div>
                     <h3 class="section-title">ประโยชน์ที่นักเรียน–นักศึกษาจะได้รับจากหนังสือเล่มนี้</h3>
@@ -475,7 +475,7 @@
             </div>
 
             <!-- Section 4: Final Value Summary & Editorial Art -->
-            <section class="content-section value-section">
+            <section class="content-section value-section" id="value-section">
                 <div class="section-header story-reveal">
                     <div class="section-tag-gold">CHAPTER 03</div>
                     <h3 class="section-title">สรุปคุณค่าของการอ่านหนังสือเล่มนี้</h3>
@@ -513,78 +513,116 @@
         </article>
     </main>
 
-    <!-- Footer -->
-    <footer class="site-footer">
-        <div class="footer-container">
-            <div class="footer-top-grid">
-                <!-- Column 1: Brand & Literary Identity -->
-                <div class="footer-col footer-col-brand">
+    <!-- Footer: Editorial & Literary Showcase -->
+    <footer class="site-footer" id="site-footer">
+        <div class="container footer-container">
+            <div class="row g-4 g-lg-5 footer-top-row">
+                <!-- Col 1: Brand & Literary Vision -->
+                <div class="col-lg-4 col-md-6 footer-col">
                     <div class="footer-brand">
-                        <img src="img/open-book.png" alt="Book Icon" class="footer-brand-icon">
-                        <span class="footer-brand-title">Classic Reads</span>
-                    </div>
-                    <p class="footer-brand-desc">
-                        เว็บไซต์แนะนำและวิจารณ์วรรณกรรมคลาสสิกระดับโลก ถ่ายทอดคุณค่าทางความคิด มโนธรรม และบทเรียนชีวิตเหนือกาลเวลาเพื่อผู้อ่านรุ่นใหม่
-                    </p>
-                    <div class="footer-award-badge">
-                        <span class="badge-star">🏆</span>
-                        <div class="badge-text">
-                            <strong>Pulitzer Prize for Fiction (1961)</strong>
-                            <span>Harper Lee — To Kill a Mockingbird</span>
+                        <a href="#hero-overview" class="footer-logo">
+                            <img src="img/open-book.png" alt="Book Icon" class="footer-logo-icon">
+                            <span class="footer-logo-text">Classic Reads</span>
+                        </a>
+                        <p class="footer-desc">
+                            เว็บไซต์แนะนำและวิจารณ์วรรณกรรมคลาสสิกระดับโลก <strong>"To Kill a Mockingbird (ผู้บริสุทธิ์)"</strong> ผลงานชิ้นเอกโดย ฮาร์เปอร์ ลี (Harper Lee) นวนิยายที่สะท้อนการต่อสู้เพื่อความยุติธรรม มโนธรรม และความกล้าหาญในการยืนหยัดเพื่อความถูกต้อง
+                        </p>
+                        <div class="footer-badges">
+                            <span class="footer-award-badge">🏆 Pulitzer Prize 1961</span>
+                            <span class="footer-award-badge">★ AFI #1 Greatest Hero</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- Column 2: Quick Links / Navigation -->
-                <div class="footer-col">
-                    <h4 class="footer-col-title">สำรวจเนื้อหา</h4>
-                    <ul class="footer-nav-list">
-                        <li><a href="#synopsis-box" class="footer-nav-link">บทนำ &amp; คำโปรย</a></li>
-                        <li><a href="#book-3d-stage" class="footer-nav-link">หนังสือ 3D &amp; สเปกเล่ม</a></li>
-                        <li><a href="#scrollytelling-gallery" class="footer-nav-link">บันทึกคดีในชั้นศาล</a></li>
-                        <li><a href="#" class="footer-nav-link">ทำไมคนรุ่นใหม่ควรอ่าน</a></li>
-                        <li><a href="#" class="footer-nav-link">สัญลักษณ์นกม็อกกิ้งเบิร์ด</a></li>
+                <!-- Col 2: Quick Links / สารบัญเว็บไซต์ -->
+                <div class="col-lg-3 col-md-6 footer-col">
+                    <h5 class="footer-col-title">สารบัญเนื้อหา</h5>
+                    <ul class="footer-links-list">
+                        <li><a href="#hero-overview" class="footer-link"><span class="link-arrow">›</span> บทนำและเรื่องย่อ</a></li>
+                        <li><a href="#author-section" class="footer-link"><span class="link-arrow">›</span> ประวัติผู้ประพันธ์ (Harper Lee)</a></li>
+                        <li><a href="#quick-facts" class="footer-link"><span class="link-arrow">›</span> ข้อมูลสำคัญและสถิติ (Quick Facts)</a></li>
+                        <li><a href="#scrollytelling-gallery" class="footer-link"><span class="link-arrow">›</span> บันทึกฉากในชั้นศาล (Courtroom)</a></li>
+                        <li><a href="#reasons-section" class="footer-link"><span class="link-arrow">›</span> เหตุผลที่คนรุ่นใหม่ควรอ่าน</a></li>
+                        <li><a href="#benefits-section" class="footer-link"><span class="link-arrow">›</span> ประโยชน์ต่อนักศึกษาและการเรียนรู้</a></li>
+                        <li><a href="#value-section" class="footer-link"><span class="link-arrow">›</span> สรุปคุณค่าและแก่นแท้วรรณกรรม</a></li>
                     </ul>
                 </div>
 
-                <!-- Column 3: Book Metadata & Specs -->
-                <div class="footer-col">
-                    <h4 class="footer-col-title">ข้อมูลหนังสือ</h4>
+                <!-- Col 3: Book Highlights / ข้อมูลวรรณกรรม -->
+                <div class="col-lg-2 col-md-6 footer-col">
+                    <h5 class="footer-col-title">ข้อมูลวรรณกรรม</h5>
                     <ul class="footer-meta-list">
-                        <li><span class="meta-label">ชื่อเรื่อง</span><span class="meta-val">To Kill a Mockingbird (ผู้บริสุทธิ์)</span></li>
-                        <li><span class="meta-label">ผู้เขียน</span><span class="meta-val">Harper Lee (ฮาร์เปอร์ ลี)</span></li>
-                        <li><span class="meta-label">ปีที่พิมพ์ครั้งแรก</span><span class="meta-val">11 กรกฎาคม 1960</span></li>
-                        <li><span class="meta-label">ประเภท</span><span class="meta-val">Southern Gothic • Legal Drama</span></li>
-                        <li><span class="meta-label">สเปกหนังสือ</span><span class="meta-val">384 หน้า (~8.5 ชม.) • EPUB / PDF</span></li>
+                        <li>
+                            <span class="meta-label">ชื่อเรื่อง:</span>
+                            <span class="meta-val">To Kill a Mockingbird</span>
+                        </li>
+                        <li>
+                            <span class="meta-label">ชื่อไทย:</span>
+                            <span class="meta-val">ผู้บริสุทธิ์</span>
+                        </li>
+                        <li>
+                            <span class="meta-label">ผู้ประพันธ์:</span>
+                            <span class="meta-val">Harper Lee</span>
+                        </li>
+                        <li>
+                            <span class="meta-label">ปีที่พิมพ์ครั้งแรก:</span>
+                            <span class="meta-val">1960 (J.B. Lippincott)</span>
+                        </li>
+                        <li>
+                            <span class="meta-label">ยอดจำหน่าย:</span>
+                            <span class="meta-val">40+ ล้านเล่มทั่วโลก</span>
+                        </li>
+                        <li>
+                            <span class="meta-label">การแปลภาษา:</span>
+                            <span class="meta-val">มากกว่า 40 ภาษา</span>
+                        </li>
                     </ul>
                 </div>
 
-                <!-- Column 4: Memorable Quote Card -->
-                <div class="footer-col footer-col-quote">
-                    <h4 class="footer-col-title">ข้อคิดเตือนใจ</h4>
-                    <div class="footer-quote-card">
-                        <blockquote class="footer-quote-text">
-                            “สิ่งเดียวที่ไม่ยอมอยู่ใต้การตัดสินของเสียงข้างมาก คือมโนธรรมในใจของคนเรา”
-                        </blockquote>
-                        <cite class="footer-quote-author">— แอตติคัส ฟินช์ (Atticus Finch)</cite>
+                <!-- Col 4: Project & Student Info -->
+                <div class="col-lg-3 col-md-6 footer-col">
+                    <h5 class="footer-col-title">เกี่ยวกับโครงงาน</h5>
+                    <div class="footer-project-card">
+                        <div class="project-badge">ACADEMIC PROJECT</div>
+                        <p class="project-info-text">
+                            เว็บไซต์แนะนำวรรณกรรมคลาสสิกและส่งเสริมการคิดเชิงวิพากษ์ ออกแบบด้วยสไตล์ Southern Gothic Editorial
+                        </p>
+                        <div class="student-id-box">
+                            <span class="student-id-label">รหัสนักศึกษา:</span>
+                            <span class="student-id-number">670510226</span>
+                        </div>
+                        <button type="button" class="footer-sample-btn" id="footer-open-sample-btn">
+                            <span class="btn-icon">📖</span>
+                            <span>เปิดอ่านตัวอย่างหนังสือ (Look Inside)</span>
+                        </button>
                     </div>
                 </div>
             </div>
 
+            <!-- Ornamental Divider -->
+            <div class="footer-ornament-divider">
+                <span class="f-ornament-line"></span>
+                <span class="f-ornament-sym">✦ ✦ ✦</span>
+                <span class="f-ornament-line"></span>
+            </div>
+
+            <!-- Lead Quote in Footer -->
+            <div class="footer-quote-strip">
+                <blockquote class="footer-quote-text">“The one thing that doesn't abide by majority rule is a person's conscience.”</blockquote>
+                <cite class="footer-quote-cite">— Atticus Finch, To Kill a Mockingbird (ผู้บริสุทธิ์)</cite>
+            </div>
+
             <!-- Footer Bottom Bar -->
             <div class="footer-bottom-bar">
-                <div class="footer-ornament-sep">
-                    <span class="footer-line"></span>
-                    <span class="footer-sym">✦ ✦ ✦</span>
-                    <span class="footer-line"></span>
+                <div class="footer-copy">
+                    <p>© 2026 <strong>Classic Reads</strong> • To Kill a Mockingbird (ผู้บริสุทธิ์). จัดทำขึ้นเพื่อการศึกษาและการนำเสนอวรรณกรรม</p>
+                    <p class="footer-author-tag">Project Developed by Student ID: <span class="highlight-id">670510226</span></p>
                 </div>
-                <div class="footer-bottom-flex">
-                    <p class="footer-copyright">
-                        © 1960–2026 <strong>Classic Reads Editorial</strong>. สงวนลิขสิทธิ์บทวิจารณ์และการเรียบเรียง
-                    </p>
-                    <p class="footer-disclaimer">
-                        จัดทำขึ้นเพื่อการศึกษา แนะนำวรรณกรรม และส่งเสริมวัฒนธรรมการอ่าน
-                    </p>
+                <div class="footer-back-top">
+                    <a href="#hero-overview" class="footer-top-btn" id="footer-back-to-top">
+                        <span>กลับขึ้นด้านบน</span>
+                        <span class="top-arrow">↑</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -1126,6 +1164,17 @@
                     behavior: 'smooth'
                 });
             });
+
+            const footerBttBtn = document.getElementById('footer-back-to-top');
+            if (footerBttBtn) {
+                footerBttBtn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                });
+            }
         }
 
         // =========================================================================
@@ -1356,6 +1405,9 @@
             ebookModal.classList.remove('is-open');
             document.body.style.overflow = '';
         }
+
+        const footerSampleBtn = document.getElementById('footer-open-sample-btn');
+        if (footerSampleBtn) footerSampleBtn.addEventListener('click', openReaderModal);
 
         if (openModalBtn) openModalBtn.addEventListener('click', openReaderModal);
         if (heroBookCover) {
